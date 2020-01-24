@@ -24,34 +24,34 @@ if(isset($_POST['email'])&&isset($_POST['option_page'])){
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
-	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="public/materialize/css/materialize.min.css"  media="screen,projection"/>
 <!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
 <!--===============================================================================================
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="public/vendor/bootstrap/css/bootstrap.min.css">
 	<input type="" class="datepicker" placeholder="Fecha de nacimiemto:" v-model="date">
 -->
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="public/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="public/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="public/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="public/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="public/vendor/select2/select2.min.css">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="public/css/util.css">
+	<link rel="stylesheet" type="text/css" href="public/css/main.css">
 <!--===============================================================================================-->
 </head>
 <body>
 	<div class="limiter" id="app">
 		<div class="container-login100">
 			<div class="wrap-login101 p-l-30 p-r-30 p-t-20 p-b-20" >
-				<img src="images/img-06.png" alt="" id="imagen3">
+				<img src="public/images/img-06.png" alt="" id="imagen3">
 
 				<span class="login100-form-title p-b-25">GESTIÓN DE DOCUMENTOS
 					<div class="divider"></div>
@@ -112,7 +112,7 @@ if(isset($_POST['email'])&&isset($_POST['option_page'])){
 				<div class="col s12">
 					<div class="card">
 						<div class="card-image">
-							<img src="images/screenshot_user.png" alt="">
+							<img src="public/images/screenshot_user.png" alt="">
 							<span class="card-title">Administrar Usuarios</span>
 						</div>
 						<div class="card-content">
@@ -130,7 +130,7 @@ if(isset($_POST['email'])&&isset($_POST['option_page'])){
 					<div class="col s12">
 						<div class="card">
 							<div class="card-image">
-								<img src="images/screenshot_docs.png" alt="">
+								<img src="public/images/screenshot_docs.png" alt="">
 								<span class="card-title">Documentos</span>
 							</div>
 							<div class="card-content">
@@ -163,22 +163,22 @@ if(isset($_POST['email'])&&isset($_POST['option_page'])){
 	</div>
 
 	<!--JavaScript at end of body for optimized loading-->
-	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+	<script type="text/javascript" src="public/materialize/js/materialize.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js">x3C/script>')</script>
-	<script type="text/javascript" src="js/initialize.js"></script>
+<script>window.jQuery || document.write('<script src="public/js/jquery-3.3.1.min.js">x3C/script>')</script>
+	<script type="text/javascript" src="public/js/initialize.js"></script>
 <!--===============================================================================================-->
 
 <!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="public/vendor/bootstrap/js/popper.js"></script>
+	<script src="public/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
+	<script src="public/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
 
 <!-- production version, optimized for size and speed -->
-	<script src="js/vue.js"></script>
-	<script type="text/javascript" src="node_modules/axios/dist/axios.min.js"></script>
+	<script src="public/js/vue.js"></script>
+	<script type="text/javascript" src="public/node_modules/axios/dist/axios.min.js"></script>
 
 
 	<script type="text/javascript">

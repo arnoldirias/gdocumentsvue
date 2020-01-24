@@ -14,11 +14,11 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->	
-	  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	  <link rel="icon" type="image/png" href="public/images/icons/favicon.ico"/>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="public/materialize/css/materialize.min.css"  media="screen,projection"/>
     
-    <link type="text/css" rel="stylesheet" href="css/estilos.css" />
+    <link type="text/css" rel="stylesheet" href="public/css/estilos.css" />
     <style>
       @font-face {
         font-family: Raleway-Black;
@@ -239,7 +239,7 @@
       <div>
         <div class="card">
           <div class="card-image">
-            <img src="images/img-10.jpg">
+            <img src="public/images/img-10.jpg">
             <span class="card-title black-text col s12" style="background-color: white;opacity: 0.5;">Mi Información</span>
             <a class="btn-floating halfway-fab waves-effect waves-light red" @click="edit(1)" v-if="!editing"><i class="material-icons">create</i></a>
             <a class="btn-floating halfway-fab waves-effect waves-light green" @click="save(1)" v-else><i class="material-icons">done</i></a>
@@ -287,7 +287,7 @@
             <div class="row">
                   <div class="card">
                     <div class="card-image">
-                      <img src="images/img-10.jpg">
+                      <img src="public/images/img-10.jpg">
                       <span class="card-title black-text col s12" style="background-color: white;opacity: 0.5;">Nombre de la Organización</span>
                       <a class="btn-floating halfway-fab waves-effect waves-light red" @click="edit(4)" v-if="!editing"><i class="material-icons">create</i></a>
             <a class="btn-floating halfway-fab waves-effect waves-light green" @click="save(4)" v-else><i class="material-icons">done</i></a>
@@ -313,7 +313,7 @@
                 <div class="row">
                       <div class="card">
                         <div class="card-image">
-                          <img src="images/img-10.jpg">
+                          <img src="public/images/img-10.jpg">
                           <span class="card-title black-text col s12" style="background-color: white;opacity: 0.5;">Gestión de Usuarios</span>
                           <a class="btn-floating halfway-fab waves-effect waves-light red" @click="addUser"><i class="material-icons">add</i></a>
                         </div>
@@ -364,7 +364,7 @@
                     <div class="row">
                           <div class="card">
                             <div class="card-image">
-                              <img src="images/img-10.jpg">
+                              <img src="public/images/img-10.jpg">
                               <span class="card-title black-text col s12" style="background-color: white;opacity: 0.5;">Gestión de Documentos</span>
                               <a id="btn_modal1" class="modal-trigger btn-floating halfway-fab waves-effect waves-light red " href="#modal1" @click="modal2"><i class="material-icons">add</i></a>
                             </div>
@@ -410,7 +410,7 @@
       <div>
         <div class="card">
           <div class="card-image">
-            <img src="images/img-10.jpg">
+            <img src="public/images/img-10.jpg">
             <span class="card-title black-text col s12" style="background-color: white;opacity: 0.5;">Cambiar Contraseña</span>
             <a class="btn-floating halfway-fab waves-effect waves-light green" @click="savePassword" v-if="verificarPassword" ><i class="material-icons">done</i></a>
           </div>
@@ -764,7 +764,7 @@
     <li><div class="user-view" id="background-profile">
       <div class="background">
       </div>
-      <a href="#user"><img class="circle" src="images/img-07.png"></a>
+      <a href="#user"><img class="circle" src="public/images/img-07.png"></a>
       <a href="#email"><span class="white-text email">{{mail}}</span></a>
       <a href="#name"><span class="white-text name">¡Hola!  {{username +" "+ userlastname}}</span></a>
       
@@ -790,25 +790,25 @@
     
     </div>
 <div class="row" v-if="selectedTag==1 || selectedTag==3" align="center">
-<img src="images/sitioc.png" alt="">
+<img src="public/images/sitioc.png" alt="">
 <h4>EN CONSTRUCCIÓN</h4>
 </div>
     
 
                      
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js">x3C/script>')</script>
+    <script type="text/javascript" src="public/materialize/js/materialize.min.js"></script>
+    <script src="public///ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="public/js/jquery-3.3.1.min.js">x3C/script>')</script>
     
     <!--
-    <script src="jquery.dataTables.min.js" ></script>
+    <script src="public/jquery.dataTables.min.js" ></script>
     <link rel="stylesheet" type="text/css" href="jquery.dataTables.min.css">
     -->
     
     <!--<script type="text/javascript" src="DataTables/datatables.min.js"></script>-->
       
-    <script type="text/javascript" src="js/initialize.js"></script>
+    <script type="text/javascript" src="public/js/initialize.js"></script>
     
     <script>
     var myemail="<?php echo $_SESSION["email"] ?>";
@@ -820,12 +820,12 @@
     </script>
 
     <!-- production version, optimized for size and speed -->
-    <script type="text/javascript" src="js/vue.js"></script>
+    <script type="text/javascript" src="public/js/vue.js"></script>
   
-    <script type="text/javascript" src="node_modules/axios/dist/axios.min.js"></script>
-    <script src="js/core-min.js"></script>
-	  <script src="js/sha1-min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="public/node_modules/axios/dist/axios.min.js"></script>
+    <script src="public/js/core-min.js"></script>
+	  <script src="public/js/sha1-min.js"></script>
+    <script type="text/javascript" src="public/js/main.js"></script>
 
     
 
