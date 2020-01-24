@@ -1,1 +1,1 @@
-web: vendor/bootstrap/js ./
+web: vendor/bootstrap/js /
