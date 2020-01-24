@@ -186,7 +186,7 @@ if(isset($_POST['email'])&&isset($_POST['option_page'])){
 	var app= new Vue({
 		el: "#app",
 		data: {
-			path: 'http://10.10.176.32:3333/',
+			path: 'http://http://gdocuments.herokuapp.com/',
 			numEstructure: 0,
 			step: 0,
 			name: "",
