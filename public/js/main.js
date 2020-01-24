@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    path: 'http://http://gdocuments.herokuapp.com/',
+    path: 'http://gdocuments.herokuapp.com/',
     message: '',
     indexTable: 0,
     tipoFiltro: 1,

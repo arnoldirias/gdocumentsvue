@@ -44,7 +44,7 @@
         
         var pattern=/[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
         if((pattern.exec(this.mail))&&(this.password!="")){
-          fetch('http://http://gdocuments.herokuapp.com/user/' + this.mail +'/'+ CryptoJS.SHA1(this.password) ).then(function(response) {
+          fetch('http://gdocuments.herokuapp.com/user/' + this.mail +'/'+ CryptoJS.SHA1(this.password) ).then(function(response) {
         			return response.json();
     			}).then(function(d) {
         			console.log('data = ', d);
