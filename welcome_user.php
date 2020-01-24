@@ -87,8 +87,9 @@ if(!isset($_SESSION["email"])){
 	</div>
 
 	<!--JavaScript at end of body for optimized loading-->
-	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-	<script src="js/jquery-3.3.1.min.js" ></script>
+	<script type="text/javascript" src="materialize/js/materialize.min.js">
+	</script><script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js">x3C/script>')</script>
 	<script type="text/javascript" src="js/initialize.js"></script>
   <!--===============================================================================================-->
 	<script src="vendor/bootstrap/js/popper.js"></script>
